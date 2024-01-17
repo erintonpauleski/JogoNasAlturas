@@ -6,7 +6,7 @@ public class Aviao : MonoBehaviour
 {
     Rigidbody2D fisica;
     [SerializeField]
-    int ValorImpulso = 10;
+    private int ValorImpulso = 10;
     void Awake()
     {
         this.fisica = this.GetComponent<Rigidbody2D>();
