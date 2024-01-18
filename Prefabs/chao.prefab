@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 144048620330875368}
   - component: {fileID: 6412454935487630284}
   - component: {fileID: 8677112829440557433}
+  - component: {fileID: 3589020926426889648}
   m_Layer: 7
   m_Name: chao
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 173807347
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: ac4c50093995eb748948acbe2a406f48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -161,3 +162,16 @@ PolygonCollider2D:
       - {x: 4.04, y: 0.015}
       - {x: 4.02, y: 0.024999999}
   m_UseDelaunayMesh: 0
+--- !u!114 &3589020926426889648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2382562064580919062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5352b74582d37844da55ad418e03245b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 5
